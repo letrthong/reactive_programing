@@ -1,3 +1,9 @@
 https://www.npmjs.com/package/rxjs
 
-npm install rxjs
+Install packet
+  npm install rxjs
+
+Run demo
+>node test01.js
+>node test02.js
+>node "observable_subscriber.js"
