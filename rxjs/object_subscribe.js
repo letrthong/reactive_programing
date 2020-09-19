@@ -11,7 +11,13 @@ module.exports = {
 
 //Way2
 function onNext(x) {
-        console.log('observable_subscribe::onNext  value ' + x);
+     console.log('observable_subscribe::onNext  value ' + x);
+}
+
+
+function onNextA(x) {
+    console.log('observable_subscribe::onNextA  value ' + x);
 }
 
 module.exports.onNext = onNext;
+module.exports.onNextA = onNextA;
