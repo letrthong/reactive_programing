@@ -1,0 +1,11 @@
+{
+  "description": "A minimal Electron application",
+  "repository": "https://github.com/electron/electron-quick-start",
+  "author": "ThongLT",
+  "main": "test.js",
+  "license": "CC0-1.0",
+  "devDependencies": {},
+  "dependencies": {
+    "rxjs": "^6.6.3"
+  }
+}
