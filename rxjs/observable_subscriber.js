@@ -1,6 +1,8 @@
 //import { Observable } from 'rxjs';
 
 const { Observable } = require('rxjs'); 
+var tools = require("./observable_subscribe.js");
+
 
 const observable = new Observable(subscriber => {
   subscriber.next(1);
@@ -11,10 +13,13 @@ const observable = new Observable(subscriber => {
     subscriber.complete();
   }, 1000);
 });
+
  
+
 console.log('just before subscribe');
+//https://rxjs.dev/api/index/class/Observable#methods
 observable.subscribe({
-  next(x) { console.log('got value ' + x); },
+  next: tools.onNext,
   error(err) { console.error('something wrong occurred: ' + err); },
   complete() { console.log('done'); }
 });
