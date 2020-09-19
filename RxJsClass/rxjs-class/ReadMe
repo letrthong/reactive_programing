@@ -1,0 +1,6 @@
+https://www.npmjs.com/package/rxjs
+
+npm install rxjs
+
+Run
+ >node "PublishSubjectCreate.js"
