@@ -6,4 +6,6 @@ Install packet
 Run demo
 >node test01.js
 >node test02.js
+
 >node "observable_subscriber.js"
+>node "object_subscriber.js"
